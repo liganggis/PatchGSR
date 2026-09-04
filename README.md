@@ -1,15 +1,11 @@
-# Aniso-GS: Anisotropic Appearance Field for 3D Gaussian Splatting
+# Patch-GSR: Fast Surface Reconstruction via 3D Gaussian Splatting
 
-![teaser](assets/synthetic0.png)
 
-This project aim to enhance 3D Gaussian Splatting in modeling scenes with specular highlights. I hope this work can assist researchers who need to model specular highlights through splatting.
+This project aim to achieve fast surface reconstruction from 3D Gaussian Splatting (3DGS). We will release all source code upon paper acceptance.
 
 ## Dataset
 
-In our paper, we use:
-
-- synthetic dataset from [NeRF](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1), and [Anisotropic Synthetic Dataset] from [Spec-Gaussian](https://drive.google.com/drive/folders/1hH7qMSbTyR392PYgsqeMhAnaAxwxzemc?usp=drive_link)
-- real-world dataset from [Mip-NeRF 360](https://jonbarron.info/mipnerf360/), and [Tandt\&Temple + Deepending] from [3DGS](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip).
+In our paper, DTU and Tanks and Temples dataset preprocess are based on [Neuralangelo scripts](https://github.com/NVlabs/neuralangelo/blob/main/DATA_PROCESSING.md). Evaluation scripts for DTU and Tanks and Temples dataset are based on [DTUeval-python](https://github.com/jzhangbs/DTUeval-python) and [TanksAndTemples](https://github.com/isl-org/TanksAndTemples/tree/master/python_toolbox/evaluation) respectively. We thank all the authors for their great work and repos. 
 
 
 And the data structure should be organized as follows:
