@@ -61,9 +61,6 @@ pip install submodules/simple-knn
 
 We have provided the script in the folder (https://github.com/liganggis/PatchGSR/script/) that were used to generate the table in the paper.
 
-### Dataset
-Dataset setting refs to PGSR(https://github.com/zju3dv/PGSR).
-
 ## Acknowledgments
 
 ...
